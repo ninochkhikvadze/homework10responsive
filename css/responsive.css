@@ -1,0 +1,49 @@
+@media (max-width:1236px){
+    .background-imige{
+       height:647px;
+    }
+}
+@media (max-width:768px){
+        .navigation{
+            display: none;
+        }
+        .burger-bar{
+            display: block;
+            color: rgb(7, 8, 8);
+            font-size: 25px;
+            height: 32px;
+            width: 32px;
+            left: 20px;
+        }
+    
+}
+
+/* section1 */
+@media (max-width:1024px){
+    .block{
+        width: 48%;
+    }
+    .block{
+        margin-bottom: 30px;
+    }
+    .block-info{
+        width: 48%;
+        margin-bottom: 93px;
+    }
+    .wraper-block{
+        height: auto;
+    } 
+    /* ver avamokmede */
+    .flex-block{
+        flex-direction: column-reverse;
+    }
+}
+@media(max-width:480px){
+    .block{
+        width: 100%;
+    }
+    .block-item{
+        width: 100%;
+    }
+
+}
