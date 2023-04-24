@@ -5,6 +5,7 @@
    background-size:cover;
    background-repeat: no-repeat;
     margin: 0 auto;
+    object-position: 70%;
     width: 100%;
     position: relative;
 }
@@ -13,6 +14,7 @@
     justify-content: space-around;
     align-items: center;
     position: absolute;
+    width: 100%;
 }
 .header-text-block{
     height: 283px;
@@ -40,6 +42,9 @@
     display: flex;
     max-width: 366px;
     width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
     justify-content: space-between;
     margin-right:40px;
     margin-left: 201px;
@@ -48,6 +53,7 @@
     margin-left: 660px;
     align-items: center;
     margin-top: 40px;
+    cursor: pointer;
 }
 .nav-li a{
     color: #000000;
@@ -155,9 +161,13 @@
 .red-block{
     height: 48px;
     width: 160px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 3px;
     background-color:#F84646;
     color: #fff;
     display: flex;
+    cursor: pointer;
     flex-direction: row;
     justify-content: center;
     align-items: center;
