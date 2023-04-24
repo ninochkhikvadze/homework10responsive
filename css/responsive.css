@@ -28,6 +28,9 @@
         margin-left: 190px;
         margin-top:55px;
     }
+    .section-footer4{
+        margin-right:120px;
+    }
 
 }
 @media(max-width:870px){
@@ -58,6 +61,11 @@
     .margin{
         margin-left: 150px;
         margin-top:15px;
+    }
+    .section-footer4{
+        margin-right:160px;
+        margin-left: 20px;
+        flex-direction: column-reverse;
     }
 }
 @media(max-width:677px){
@@ -196,6 +204,9 @@
     } 
     /* ver avamokmede */
     .flex-block{
+        flex-direction: column-reverse;
+    }
+    .left-block{
         flex-direction: column-reverse;
     }
 }
